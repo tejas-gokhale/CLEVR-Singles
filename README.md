@@ -1,8 +1,11 @@
 # CLEVR-Singles
-Dataset generation code for the CLEVR-Singles dataset from the AAAI 2021 paper 
+Dataset generation code for the CLEVR-Singles dataset from the AAAI 2021 paper:
+
 "Attribute-Guided Adversarial Training for Robustness to Natural Perturbations"
+
 *Tejas Gokhale, Rushil anirudh, Bhavya Kailkhura, Jayaraman J. Thiagarajan, Chitta Baral, Yezhou Yang, 
 (to appear in) AAAI 2021*
+
 https://arxiv.org/abs/2012.01806
 
 This codebase is directly based on the CLEVR dataset generation code from https://github.com/facebookresearch/clevr-dataset-gen 
