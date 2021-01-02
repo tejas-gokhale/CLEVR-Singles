@@ -1,5 +1,9 @@
 # CLEVR-Singles
-Dataset generation code for the CLEVR-Singles dataset from the AAAI 2021 paper "Attribute-Guided Adversarial Training" https://arxiv.org/abs/2012.01806
+Dataset generation code for the CLEVR-Singles dataset from the AAAI 2021 paper 
+"Attribute-Guided Adversarial Training for Robustness to Natural Perturbations"
+*Tejas Gokhale, Rushil anirudh, Bhavya Kailkhura, Jayaraman J. Thiagarajan, Chitta Baral, Yezhou Yang, 
+(to appear in) AAAI 2021*
+https://arxiv.org/abs/2012.01806
 
 This codebase is directly based on the CLEVR dataset generation code from https://github.com/facebookresearch/clevr-dataset-gen 
 
@@ -38,4 +42,26 @@ CUDA_VISIBLE_DEVICES=1 nohup $BLENDER_DIR/blender -noaudio --background --python
 `--output_scene_dir` and `output_image_dir` are the paths where you want to save the generated images
 
 
+If you find our dataset and our AGAT paper useful, please use the following citation:
+```
+@misc{gokhale2020attributeguided,
+      title={Attribute-Guided Adversarial Training for Robustness to Natural Perturbations}, 
+      author={Tejas Gokhale and Rushil Anirudh and Bhavya Kailkhura and Jayaraman J. Thiagarajan and Chitta Baral and Yezhou Yang},
+      year={2020},
+      eprint={2012.01806},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+For citing the original CLEVR dataset generation code, use:
+```
+@inproceedings{johnson2017clevr,
+  title={CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning},
+  author={Johnson, Justin and Hariharan, Bharath and van der Maaten, Laurens
+          and Fei-Fei, Li and Zitnick, C Lawrence and Girshick, Ross},
+  booktitle={CVPR},
+  year={2017}
+}
+```
 
